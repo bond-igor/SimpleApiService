@@ -13,6 +13,7 @@ id (int)
 account_id (int) - связь с сущностью “Счет”
 amount (decimal)
 changed_at (datetime)
+type (number)
 API должно реализовывать следующие методы
 Получения полного списка операций по счету (GET /api/account/{account_id}/history), результат массив объектов историй операций от нового к старому
 Внесение денег на счет (POST /api/account/{account_id}/top-up, параметр amount), результат текущий баланс счета
