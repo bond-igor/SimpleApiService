@@ -1,0 +1,32 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+SimpleApiService/[Dd]ebug/
+SimpleApiService/[Dd]ebugPublic/
+SimpleApiService/[Rr]elease/
+SimpleApiService/[Rr]eleases/
+SimpleApiService/x64/
+SimpleApiService/x86/
+SimpleApiService/build/
+SimpleApiService/bld/
+SimpleApiService/[Bb]in/
+SimpleApiService/[Oo]bj/
+SimpleApiService/msbuild.log
+SimpleApiService/msbuild.err
+SimpleApiService/msbuild.wrn
+
+# Visual Studio 2015
+.vs/
